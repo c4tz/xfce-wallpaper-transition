@@ -103,7 +103,6 @@ if __name__ == "__main__":
     parser.add_argument(
         '-d',
         '--dir',
-        nargs='?',
         default=os.getcwd(),
         metavar=('ImageDir'),
         help='The directory of the backgrounds you want to loop through',
@@ -112,7 +111,6 @@ if __name__ == "__main__":
     parser.add_argument(
         '-t',
         '--timeout',
-        nargs='?',
         default=300,
         metavar=('SECONDS'),
         help='How many seconds to wait before the next transition',
