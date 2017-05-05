@@ -16,6 +16,8 @@ You can install them by using this command:
 # pip install -U pillow python-xlib
 ```
 
+(or, and this is preferred, use your package manager and install a distribution-specific-version)
+
 ## Installation
 
 This is just a simple script, put it anywhere and run it.
@@ -62,6 +64,7 @@ $ python wallpaper.py -d ~/pictures -t 300 -s 2 50 -b ~/background.jpg
 ## Current TODO
 
 * Make it use only picture files, not random ones
+* Also use different workspaces, not just screens
 * Check if file paths really exist
 * General exception handling
 
